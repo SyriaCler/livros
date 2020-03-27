@@ -1,0 +1,29 @@
+<!-- o class dentro de colchetes significa que recebe uma propriedade,que é um valor dinâmico -->
+<!-- título está sendo chamado por interpolação lá do ts -->
+<form>
+    <div class = "linha">
+        <label for="titulo">Titulo</label>
+        <input [(ngModel)]="campoTitulo" type="text" name="titulo">
+    </div>
+    <div class = "linha">
+
+        <label for="autor">Autor</label>
+        <input [(ngModel)]="campoAutor" type="text" name="autor">
+    </div>
+    <div class = "linha">
+        <label for="descricao">Descrição</label>
+        <input [(ngModel)]="campoDescricao" type="text" name="descricao">
+    </div>
+    <div class = "linha">
+
+        <label for="categoria">Categoria</label>
+        <input [(ngModel)]="campoCategoria" type="text" name="categoria">
+    </div>
+    <div class = "linha">
+
+        <label for="capa">Capa</label>
+        <input [(ngModel)]="campoCapa" type="text" name="capa">
+    </div>
+</form>
+
+<button (click)="cadastrar()">Enviar</button>

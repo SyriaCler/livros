@@ -1,0 +1,15 @@
+.row{
+    .card{
+    border: 2px solid;
+    display: inline-flex;
+    // padding: 15px;
+    // margin: 5px;
+}
+    .card-title{
+        font-size: 25px;
+    }
+
+    .card-content{
+        font-size: 15px;
+    }
+}
